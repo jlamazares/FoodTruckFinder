@@ -11,21 +11,33 @@ export const ControlledCarousel = () => {
 	return (
 		<Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
 			<Carousel.Item>
-				<img className="d-block w-100" src="holder.js/800x400?text=First slide&bg=373940" alt="First slide" />
+				<img
+					className="d-block w-100"
+					src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+					alt="First slide"
+				/>
 				<Carousel.Caption>
 					<h3>First slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide" />
+				<img
+					className="d-block w-100"
+					src="https://images.pexels.com/photos/2089712/pexels-photo-2089712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+					alt="Second slide"
+				/>
 				<Carousel.Caption>
 					<h3>Second slide label</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide" />
+				<img
+					className="d-block w-100"
+					src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+					alt="Third slide"
+				/>
 				<Carousel.Caption>
 					<h3>Third slide label</h3>
 					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
